@@ -1,4 +1,4 @@
-# GraphHopper Example
+# GraphHopper Navigation Example for Android
 
 Use the GraphHopper Directions API with the [Maplibre Navigation SDK for Android](https://github.com/maplibre/maplibre-navigation-android).
 
