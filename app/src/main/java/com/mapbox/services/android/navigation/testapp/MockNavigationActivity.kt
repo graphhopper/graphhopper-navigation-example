@@ -228,6 +228,8 @@ class MockNavigationActivity :
             this.destination(destination)
             this.voiceUnits(METRIC)
             this.alternatives(true)
+            this.user("gh")
+            this.profile("car")
             this.baseUrl(getString(R.string.base_url))
         }
 

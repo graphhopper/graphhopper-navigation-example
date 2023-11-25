@@ -45,9 +45,7 @@ android {
 }
 
 dependencies {
-    // Flitsmeister Navigation SDK
-    implementation project(':libandroid-navigation')
-    implementation project(':libandroid-navigation-ui')
+    implementation 'com.github.maplibre:maplibre-navigation-android:3.0.0'
     implementation(dependenciesList.mapLibre) {
         exclude group: 'com.mapbox.mapboxsdk', module: 'mapbox-sdk-geojson'
         exclude group: 'com.mapbox.mapboxsdk', module: 'mapbox-sdk-turf'

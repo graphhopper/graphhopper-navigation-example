@@ -163,10 +163,10 @@ class NavigationUIActivity :
 
     private fun calculateRoute() {
         binding.startRouteLayout.visibility = View.GONE
-        val userLocation = mapboxMap.locationComponent.lastKnownLocation
+        val userLocation = mapboxMap.locationComponent.lastKnownLocation // LatLng(51.43224,14.241285)
         val destination = destination
         if (userLocation == null) {
-            Timber.d("calculateRoute: User location is null, therefore, origin can't be set.")
+            Toast.makeText(this, "calculateRoute: User location is null, therefore, origin can't be set.", Toast.LENGTH_LONG).show()
             return
         }
 
@@ -186,9 +186,8 @@ class NavigationUIActivity :
             this.destination(destination)
             this.voiceUnits(DirectionsCriteria.METRIC)
             this.alternatives(true)
-            // If you are using this with the GraphHopper Directions API, you need to uncomment user and profile here.
-            //this.user("gh")
-            //this.profile("car")
+            this.user("gh")
+            this.profile("car")
             this.baseUrl(getString(R.string.base_url))
         }
 
