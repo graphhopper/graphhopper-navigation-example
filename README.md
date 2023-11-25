@@ -19,6 +19,10 @@ With this SDK you can implement turn-by-turn navigation in your own Android app 
 7. you will see a gray circle for your current location. Tap on screen to set the destination
 8. Now a button "Start Route" will appear. Click it and the navigation panel will appear
 
+## Legacy
+
+To find the old example that uses the old GraphHopper SDK have a look [here](https://github.com/graphhopper/graphhopper-navigation-example-legacy).
+
 ## License
 
 This code was forked from Maplibre. It stands under the [same license as the Maplibre SDK](https://github.com/maplibre/maplibre-navigation-android#license), i.e. MIT License.
