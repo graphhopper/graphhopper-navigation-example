@@ -2,7 +2,7 @@
 
 Use the GraphHopper Directions API with the [Maplibre Navigation SDK for Android](https://github.com/maplibre/maplibre-navigation-android).
 
-With this SDK you can implement turn-by-turn navigation in your own Android app while hosting your Map tiles and Directions API.
+With this SDK you can implement turn-by-turn navigation in your own Android app while using GraphHopper for the routing and a map tile service like MapTiler for the map visualization.
 
 <div align="center">
   <img src="https://github.com/maplibre/maplibre-navigation-android/blob/main/.github/preview.png" height="350px" alt="MapLibre Navigation Android">
