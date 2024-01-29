@@ -12,7 +12,7 @@ With this SDK you can implement turn-by-turn navigation in your own Android app 
 
 1. download IntelliJ with Android Support and open this repository
 2. go to app/src/main/res/value/developer-config.xml and..
-3. replace the GraphHopper API key to make the routing working
+3. replace the GraphHopper API key to make the routing working (do not forget to prefix the GraphHopper API key with `pk.`)
 4. replace the map tiles API URL to make the map visible
 5. enable GPS location
 6. start the app and click "Navigation UI"
