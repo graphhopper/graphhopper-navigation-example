@@ -2,6 +2,6 @@
 
 You can use this repository which uses the Maplibre SDK.
 
-But it might be as simple to use the Maplibre SDK directly and make the small changes to this repository. Soonish no changes will be necessary - see [this discussion](https://github.com/maplibre/maplibre-navigation-android/issues/151).
+But it might be simpler to use the Maplibre SDK directly. See [this PR](https://github.com/maplibre/maplibre-navigation-android/pull/162).
 
-Furthermore have a look into ferrostar SDK and see [this PR](https://github.com/stadiamaps/ferrostar/pull/514).
+Furthermore you can use GraphHopper with the ferrostar SDK. See [this PR](https://github.com/stadiamaps/ferrostar/pull/514).
