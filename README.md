@@ -8,4 +8,6 @@ Or have a look into [this end user application](https://github.com/boldtrn/graph
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/5bb38cba-5340-4f89-ad8f-d4c86b0834d2" />
 
+This app provides a capacitor plugin, but the code can be used as a start for a kotlin multiplatform integration without any capacitor dependency. And as the latest Maplibre Navigation SDK is KMP-ready too this code can be easily ported to iOS.
+
 Furthermore you can use GraphHopper with the ferrostar SDK. See [this PR](https://github.com/stadiamaps/ferrostar/pull/514).
